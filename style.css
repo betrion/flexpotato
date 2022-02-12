@@ -1,6 +1,5 @@
 body{
     font-family: Roboto;
-    /* margin:auto; */
     background-color: black;
 }
 .holder{
@@ -11,8 +10,9 @@ body{
 .nav {
     background-color: #1f2937;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: white;
+    padding: 0rem 7rem;
 }
 
 .header {
@@ -21,44 +21,119 @@ body{
     font-size: 18px;
     color: #e5e7eb;
     justify-content: space-around;
+    padding: 3rem 7rem;
+    gap:2rem;
 }
+a  {
+    color: #e5e7eb;
+    text-decoration-style: none;
+    text-decoration: none;
+    padding-left: 1rem;
+}
+.nav .nlogo {
+    color: white;
+    font-weight: bold;
+    
+}
+
+.header .signup {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid #3882f6;
+    padding: 2px 15px;
+}
+
 h1{
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 800;
     color:#f9faf8;
+    padding: 0;
+    margin: 0;
 }
 .header-img {
     border: 1px solid grey;
     background-color: grey;
     align-self: center;
-    padding:3rem;
+    margin:1rem;
+}
+img{
+    width: 300px;
 }
 
 .main {
     display:flex;
     flex-direction: column;
     margin:auto;
+    padding: 0rem 7rem 3rem;
+}
+.main-title {
+    align-self: center;
 }
 .main-cont-holder{
     display:flex;
     gap:1rem;
+    padding: 0 10rem;
 
 }
-h2 {
-    font-size: 36px;
-    color:#1f2937;
+.desc-cont-holder {
+    font-size: 12px;
+    display: flex;
+    gap:1rem;
+    padding:0rem 10rem;
+    border-radius: 8px;
 }
+
+h2 {
+    font-size: 18px;
+    margin-left: 3rem;
+    font-weight: 900;
+    color:#1f2937;
+    
+}
+
 .box1, .box2, .box3, .box4 {
-    border: 1px solid #3882f6;
-    padding:2rem;
-    border-radius: 10px;
+    border: 3px solid #3882f6;
+    padding:3rem 3rem;
+    border-radius: 8px;
 }
 
 .quote {
     background-color: #e5e7eb;
-    padding: 2rem;
-    margin:1rem 0;
+    padding: 2rem 7rem;
     font-style: italic;
-    font-size: 36px;
+    font-size: 26px;
     font-weight: lighter;
+}
+.quote .signature {
+    padding: 0rem 7rem;
+    text-align: right;
+    font-size: large;
+    font-style: normal;
+    font-weight: 1000;
+}
+
+
+
+
+
+.signup-box {
+    border: 1px solid #3882f6;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:1rem 15rem;
+    border-radius: 5px;
+    margin: 2rem;
+}
+
+.footer{
+    background-color: #1f2937;
+    flex-direction: row;
+    color: #e5e7eb;
+}
+.footer p {
+    padding-left: 50%;
 }
